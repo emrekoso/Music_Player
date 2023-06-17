@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    width: 450px;
+    
+}
+
+#progress .times,
+.card-footer,
+.volume-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.volume-container i {
+    margin-right: 5px;
+}
+
+li.playing {
+    background-color: blue;
+    color: #fff;
+}
+
+.collapse .list-group:hover {
+    cursor:pointer ;
+}
+
+#shuffle:hover, #prev:hover,
+#next:hover, #loop:hover {
+    color:grey;
+}
